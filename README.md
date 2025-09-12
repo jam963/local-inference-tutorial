@@ -9,10 +9,10 @@ Most C.Psyders have probably used HuggingFace `transformers` for running "small"
 * interact with an LLM using a chat interface, and
 * prompt the model using the OpenAI API.
 
-This is a high-level introduction focused on running LLMs on your laptop or personal computer. Of course, you might also want to make use of Cornell's G2 cluster. In that case, you should review the G2 docs and how to use SLURM. 
+This is a high-level introduction focused on running LLMs on your laptop or personal computer. Of course, you might also want to make use of Cornell's G2 cluster. In that case, you should review the [G2 docs](https://it.coecis.cornell.edu/researchit/g2cluster/) and how to [use SLURM](https://it.coecis.cornell.edu/researchit/g2cluster/#:~:text=Create%20a%20SLURM%20Submission%20Script%3A). 
 
 ### Disclaimer
-Use these tools at your own risk. It's possible to damage your machine running models that are too large for too long. You should be familiar with the limitations and capabilities of your hardware before trying to run a model.
+Install and use these tools at your own risk. It's possible to damage your machine running models that are too large for too long. You should be familiar with the limitations and capabilities of your hardware before trying to download and run a model.
 
 ## Ollama
 ### 1. Ollama installation
