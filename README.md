@@ -70,7 +70,6 @@ If you have models installed, you should see a table with lines like:
 NAME                                ID              SIZE      MODIFIED 
 deepseek-r1:8b-0528-qwen3-q4_K_M    6995872bfe4c    5.2 GB    13 days ago
 ```
-*(Widen your window/zoom out if this looks garbled here)*
 
 Ollama makes it easy to download new models. Let's try downloading a small, quantized Gemma 3 model, `gemma3:270m-it-qat`. Typically on Ollama, the particular [GGUF](https://huggingface.co/docs/hub/en/gguf) file you're downloading has the model name first, a `:` character, the model size, and then any model variant and quantization. Here, we have 
 * `gemma3`: the model family,
