@@ -1,15 +1,15 @@
 # Local LLM inference with Ollama and Llama.cpp
-### C.Psyd Tutorial - 9/12
+*Adapted from a [C.Psyd](https://c-psyd.github.io/) tutorial given 9/12/25*
 This tutorial will guide you through the installation, setup, and basic usage of the Ollama and Llama.cpp CLI tools. 
 
-Most C.Psyders have probably used HuggingFace `transformers` for running "small" pretrained langugage models like BERT or GPT-2. However, it can be much simpler to use tools like Ollama or Llama.cpp when working with large generative models. They allow you to easily:
+You may have used HuggingFace `transformers` for running "small" pretrained langugage models like BERT or GPT-2. However, it can be much simpler to use tools like Ollama or Llama.cpp when working with large generative models. They allow you to easily:
 * "split" a large model across VRAM and CPU RAM,
 * enable things like flash attention,
 * run quantized models,
 * interact with an LLM using a chat interface, and
 * prompt the model using the OpenAI API.
 
-This is a high-level introduction focused on running LLMs on your laptop or personal computer. Of course, you might also want to make use of Cornell's G2 cluster. In that case, you should review the [G2 docs](https://it.coecis.cornell.edu/researchit/g2cluster/) and how to [use SLURM](https://it.coecis.cornell.edu/researchit/g2cluster/#:~:text=Create%20a%20SLURM%20Submission%20Script%3A). 
+This is a high-level introduction focused on running LLMs on your laptop or personal computer. Of course, you might also want to make use of Cornell's G2 cluster, if you have access. In that case, you should review the [G2 docs](https://it.coecis.cornell.edu/researchit/g2cluster/) and how to [use SLURM](https://it.coecis.cornell.edu/researchit/g2cluster/#:~:text=Create%20a%20SLURM%20Submission%20Script%3A). 
 
 ### Disclaimer
 Install and use these tools at your own risk. It's possible to damage your machine running models that are too large for too long. You should be familiar with the limitations and capabilities of your hardware before trying to download and run a model.
