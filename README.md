@@ -1,5 +1,6 @@
 # Local LLM inference with Ollama and Llama.cpp
 *Adapted from a [C.Psyd](https://c-psyd.github.io/) tutorial given 9/12/25*
+
 This tutorial will guide you through the installation, setup, and basic usage of the Ollama and Llama.cpp CLI tools. 
 
 You may have used HuggingFace `transformers` for running "small" pretrained langugage models like BERT or GPT-2. However, it can be much simpler to use tools like Ollama or Llama.cpp when working with large generative models. They allow you to easily:
