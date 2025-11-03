@@ -79,7 +79,7 @@ Ollama makes it easy to download new models. Let's try downloading a small, quan
 
 To download this model, just run 
 ```
-ollama pull gemma3:270-it-qat
+ollama pull gemma3:270m-it-qat
 ```
 Now, when you run `ollama list`, you should see the model, its size, and when it was last modified. If you ever want to remove a model, just run 
 ```
